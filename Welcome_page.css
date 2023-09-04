@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 * {
 
     margin: 0px;
@@ -139,9 +142,10 @@ nav{
 .abt-2 h1{
     color: white;
     text-align: center;
-    transform: translate(0%, 350%);
-    font-size: 37px;
+    transform: translate(0%, 450%);
+    font-size: 60px;
     font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
 }
 .abt-3{
     height: 100%;
@@ -155,9 +159,10 @@ nav{
 .abt-3 h1{
     color: white;
     text-align: center;
-    transform: translate(0%, 350%);
-    font-size: 37px;
+    transform: translate(0%, 450%);
+    font-size: 60px;
     font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
 }
 .abt-4{
     height: 100%;
@@ -171,8 +176,104 @@ nav{
 .abt-4 h1{
     color: white;
     text-align: center;
-    transform: translate(0%, 350%);
-    font-size: 37px;
+    transform: translate(0%, 450%);
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+}
+.abt-5{
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(Chinese-food-stock.jpeg);/*overlay effect*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
     font-family: "Montserrat", sans-serif;
 }
+.abt-5 h1{
+    color: white;
+    text-align: center;
+    transform: translate(0%, 450%);
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+}
+.abt-6{
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(Lebanese-food-stock.jpeg);/*overlay effect*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.abt-6 h1{
+    color: white;
+    text-align: center;
+    transform: translate(0%, 450%);
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+}
+.abt-7{
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(Thai-food-stock.jpeg);/*overlay effect*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.abt-7 h1{
+    color: white;
+    text-align: center;
+    transform: translate(0%, 450%);
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+}
+/*.abt-8{
+    height: 100vh;
+  position: relative;
+}
+.abt-8 h1{
+    color: white;
+    text-align: center;
+    transform: translate(0%, 600%);
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+}*/
+video {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .abt-8-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background: rgba(0,0,0,0.9);
+  }
+  .home-content {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    color: #fff;
+    z-index: 3;
+  }
+  .home-content h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 37px;
+    text-align: center ;
+    transform: translate(0%, 150%);
+  }
+
 
